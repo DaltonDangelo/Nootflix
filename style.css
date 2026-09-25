@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: #141414;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 0px 5%;
+  background: #000;
+  border-bottom: 2px solid #e50914;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  padding: 30px 15%;
+  /*centering dont work (content: center;) so i just used padding and tweaked until its centered */
+}
+
+.gallery a {
+  display: block;
+  margin: 0 12px;
+}
+
+.gallery img {
+  display: block;
+  width: 225px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+footer {
+  padding: 20px 5%;
+  color: #9999;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  padding: 20px 5%;
+}
+
+.featured img {
+  display: block;
+  width: 90%;
+  border-radius: 10px;
+}
